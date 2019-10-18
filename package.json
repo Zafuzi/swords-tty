@@ -1,0 +1,11 @@
+{
+  "name": "swords",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "firstline": "^2.0.2",
+    "request": "^2.88.0",
+    "sleepless": "^2.7.2"
+  }
+}
