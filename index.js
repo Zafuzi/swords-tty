@@ -37,6 +37,7 @@ var init = function() {
 var lookup = function(cmd, cb) {
 	let url = 'https://swords.sleepless.com/api/?act=PLAY&game_id=' + game_id + "&cmd=" + cmd;
 	request.get(url, {}, (err, response, body) => {
+		//console.log('\n\t' + o2j(body) + '\n');
 		log('\n\t' + j2o(body).data.text + '\n');
 		cb();
 		return;
